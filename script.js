@@ -1,4 +1,4 @@
-let js = 'amazing';
+/*let js = 'amazing';
 console.log(40 + 8 + 23 - 10);
 
 console.log('Jonas');
@@ -57,7 +57,7 @@ job = 'teacher';
 
 lastName = 'Ogbondah';
 console.log(lastName);
-/*
+
 /////////////////////////////////
 // Basic Operators
 // Math operators
@@ -150,26 +150,26 @@ const john2BMI = massJohn2 / heightJohn2 ** 2;
 console.log(mark2BMI, john2BMI);
 let markHigherBMI2 = true;
 console.log(mark2BMI > john2BMI);
-*/
+
 //////TO BULKY
 ////////OR
-
+*/
 //2ND SOLUTION
-//const massMark = 78;
-//const heightMark = 1.69;
-//const massJohn = 92;
-//const heightJohn = 1.95;
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
-/*const massMark = 95;
-const heightMark = 1.88;
-const massJohn = 85;
-const heightJohn = 1.76;
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / heightJohn ** 2;
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
-
+/*
 //Strings and template literals
 const firstName = 'Jonas';
 const job = 'teacher';
