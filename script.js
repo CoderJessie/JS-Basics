@@ -223,7 +223,6 @@ Use the BMI example from the Challenge #1, and the code you already wrote, and i
 HINT: Use an if/else statement 
 
 GOOD LUCK
-*/
 
 // const massMark = 78;
 // const heightMark = 1.69;
@@ -244,3 +243,24 @@ if (BMIMark > BMIJohn) {
 } else {
 	console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`);
 }
+*/
+//TYPE CONVERSION
+const inputYear = '1991';
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//TYPE COERCION
+console.log('I am ' + 23 + ' years old');
+console.log('23' - '10' - 3); //subtraction operator
+console.log('23' * '2'); //multiplication operator
+console.log('23' / '2'); //division operator
+console.log('23' > '18'); //logical operator
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
