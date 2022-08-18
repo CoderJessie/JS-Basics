@@ -287,7 +287,7 @@ if (height) {
 } else {
 	console.log('Height is UNDEFINED');
 }
-*/
+
 //EQUALITY OPERATORS
 const age = '18';
 if (age === 18) console.log('You just became an adult :D (strict)');
@@ -312,4 +312,26 @@ if (favourite === 23) {
 if (favourite !== 23) {
 	//do not use !=
 	console.log('Why not 23?');
+}
+*/
+//Logical operators
+const hasDriversLicense = true; // A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicense && hasGoodVision); //&& means 'and'
+console.log(hasDriversLicense || hasGoodVision); //|| means 'or'
+console.log(!hasDriversLicense); //! means 'not'
+
+//if (shouldDrive) {
+//	console.log('Sarah is able to drive!');
+// } else {
+//	console.log('Someone else should drive...');
+// }
+const isTired = false; //C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+	console.log('Sarah is able to drive!');
+} else {
+	console.log('Someone else should drive...');
 }
