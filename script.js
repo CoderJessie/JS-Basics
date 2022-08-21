@@ -354,7 +354,6 @@ TEST DATA BONUS 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 196
 
 GOOD LUCK
-*/
 
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const scoreKoalas = (88 + 91 + 110) / 3;
@@ -390,7 +389,6 @@ GOOD LUCK
 // } else {
 // 	console.log('There is no winner!');
 // }
-
 //Bonus 2
 const scoreDolphins = (97 + 112 + 101) / 3;
 const scoreKoalas = (109 + 95 + 196) / 3;
@@ -409,4 +407,30 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 	console.log('Both teams have a tie!');
 } else {
 	console.log('There is no winner!');
+}
+*/
+//SWITCH STATEMENT(An alternative way of writing a complicated if/else statement)
+const day = 'monday';
+
+switch (day) {
+	case 'monday': // day === 'monday'
+		console.log('Plan course structure');
+		console.log('Go to coding meetup');
+		break;
+	case 'tuesday':
+		console.log('Prepare theory videos');
+		break;
+	case 'wednesday':
+	case 'thursday': // wed and thur to run the same code for two diff data
+		console.log('Write code examples');
+		break;
+	case 'friday':
+		console.log('Record videos');
+		break;
+	case 'saturday':
+	case 'sunday':
+		console.log('Enjoy the weekend :D');
+		break;
+	default:
+		console.log('Not a valid day!');
 }
