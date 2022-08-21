@@ -356,16 +356,36 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 196
 GOOD LUCK
 */
 
-const scoreDolphins = (96 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins);
+// console.log(scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+// 	console.log('Team Dolphins win!');
+// } else if (scoreDolphins < scoreKoalas) {
+// 	console.log('Team Koalas win!');
+// } else if (scoreDolphins === scoreKoalas) {
+// 	console.log('Both teams have a tie!');
+// } else {
+// 	console.log('There is no winner!');
+// }
+
+//Bonus 1
+const scoreDolphins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 123) / 3;
 console.log(scoreDolphins);
 console.log(scoreKoalas);
 
-if (scoreDolphins > scoreKoalas) {
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 	console.log('Team Dolphins win!');
-} else if (scoreDolphins < scoreKoalas) {
+} else if (scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
 	console.log('Team Koalas win!');
-} else if ((scoreDolphins = scoreKoalas)) {
+} else if (
+	scoreDolphins === scoreKoalas &&
+	scoreDolphins >= 100 &&
+	scoreKoalas >= 100
+) {
 	console.log('Both teams have a tie!');
 } else {
 	console.log('There is no winner!');
