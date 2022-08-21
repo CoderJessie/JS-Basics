@@ -372,8 +372,8 @@ GOOD LUCK
 // }
 
 //Bonus 1
-const scoreDolphins = (97 + 112 + 81) / 3;
-const scoreKoalas = (109 + 95 + 86) / 3;
+const scoreDolphins = (97 + 112 + 80) / 3;
+const scoreKoalas = (109 + 95 + 50) / 3;
 console.log(scoreDolphins);
 console.log(scoreKoalas);
 
