@@ -408,7 +408,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
 	console.log('There is no winner!');
 }
-*/
+
 //SWITCH STATEMENT(An alternative way of writing a complicated if/else statement)
 const day = 'monday';
 
@@ -448,3 +448,20 @@ if (day === 'monday') {
 } else {
 	console.log('Not a valid day!');
 }
+*/
+
+//STATEMENT AND EXPRESSIONS
+//Expression is a piece of code that produces a value.
+//Example:
+3 + 4;
+1991;
+true && false && !false;
+//Statement is a bigger piece of code that is executed and which does not produce a value on itself. Statements are full sentences that translate our actions.
+//Example:
+if (23 > 10) {
+	const str = '23 is bigger'; // This line of code is a statement. Any code that ends with a semicolon is a statement.
+}
+//JS expects expressions and statement in several places
+//Example in template literal:
+const me = 'Jonas';
+console.log(`I'm ${2037 - 1991} years old ${me}`);
